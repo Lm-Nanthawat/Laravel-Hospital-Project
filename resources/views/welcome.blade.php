@@ -10,4 +10,7 @@
 <body>
     @include('components.navbar')
 </body>
+<footer>
+    @include('components.footer')
+</footer>
 </html>
