@@ -9,12 +9,12 @@
 </head>
 <body>
     <header>
-        @include('components.navbar')
+        @include('components.navbar') {{-- Topbar and Navbar --}}
     </header>
     
 
     <footer>
-        @include('components.footer')
+        @include('components.footer') {{-- Footer --}}
     </footer>
 </body>
 

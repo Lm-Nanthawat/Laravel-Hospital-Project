@@ -1,4 +1,6 @@
 <div class="bg-[] w-[100%] h-[12vh] space-y-8 shadow-md shadow-[#e3eef9] Navbar-main">
+
+    {{-- Topbar --}}
     <div class="w-[84%] m-auto topbar-box">
         <div class="topbar">
             <ul class="space-x-4 text-[13px] font-[460] flex">
@@ -9,6 +11,7 @@
         </div>
     </div>
     
+    {{-- Navbar --}}
     <div class="w-[82%] m-auto navbar-box">
         <div class="flex justify-between items-center navbar">
             <ul class="space-x-12 text-[#223851] text-base font-[530] flex items-center">
@@ -20,7 +23,7 @@
                     <p class="hover:text-[#1760c0] decoration-[transparent] hover:underline decoration-2 underline-offset-[16px] hover:decoration-[#1760c0] transition cursor-context-menu">About Us</p>
                     <!-- Dropdown Menu -->
                     <div class="absolute left-0 bg-white shadow-lg rounded mt-0 w-[200px] opacity-0 visibility-hidden group-hover:opacity-100 group-hover:visibility-visible transition-opacity duration-500 delay-200 pointer-events-none group-hover:pointer-events-auto">
-                        <ul class="flex flex-col pl-2 py-4">
+                        <ul class="flex flex-col pl-2 py-4 gap-y-2">
                             <li class="hover:text-[#1760c0] transition p-2 cursor-pointer">
                                 <a href="#">Hospital history</a>
                             </li>
@@ -102,7 +105,7 @@
                 </li>
                 
 
-                {{-- Pakage and Promotions Menu --}}
+                {{-- Package and Promotions Menu --}}
                 <li class="relative group">
                     <p class="font-bold hover:text-[#1760c0] decoration-[transparent] hover:underline decoration-2 underline-offset-[16px] hover:decoration-[#1760c0] transition cursor-context-menu">Package and Promotions</p>
 
