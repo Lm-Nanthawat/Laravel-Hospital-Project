@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.arrow-down {
+    font-family: 'IcoFont'; /* ใช้ฟอนต์ IcoFont */
+    content: "\eaa0"; /* ใช้ Unicode ของลูกศรที่ชี้ลงจาก IcoFont */
+    font-size: 16px; /* ปรับขนาดลูกศร */
+    position: absolute;
+    right: -20px; /* ปรับตำแหน่งลูกศรให้ชิดขวา */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
